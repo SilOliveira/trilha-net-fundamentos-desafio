@@ -1,3 +1,20 @@
+# DESAFIO 1/3 CONCLUÍDO COM SUCESSO! 💛
+Esse desafio tem por objetivo atender a um dos requisitos do Bootcamp DecolaTech 2024, que foi promovido pela parceria da AVANADE com a DIO.
+
+## Estudos utilizados nesse desafio 📝
+Utilizei os operadoreas lógicos para realizar o calculo do valor total gasto no estacionamento, inclui as variáves necessárias para que pudessem ser utiliadas para o cadastro das placas dos carros e para listar a quantidade de carros estacionados utilizei o foreach para percorrer toda a lista de carro, futuramente quero desenvolver melhor esse projeto implementando a impressão de um ticket do estacionamento. 
+
+
+
+## 🚀 Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Vscode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
+
+---
 # DIO - Trilha .NET - Fundamentos
 www.dio.me
 
