@@ -14,7 +14,7 @@ Console.Write("Agora digite o preço por hora: ");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
 
-Console.Write(" Por favor, digite o preço do serviço de lava-rápido: ");
+Console.Write("Por favor, digite o preço do serviço de lava-rápido: ");
 decimal precoLavaRapido = Convert.ToDecimal(Console.ReadLine());
 
 Estacionamento es = new Estacionamento(precoInicial, precoPorHora, precoLavaRapido);

@@ -5,7 +5,7 @@ namespace DesafioFundamentos.Models
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
         private decimal precoLavaRapido = 0;
-        private List<string> veiculos = new List<string>();
+        private HashSet<string> veiculos = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora, decimal precoLavaRapido)
         {
@@ -18,6 +18,12 @@ namespace DesafioFundamentos.Models
         {
             Console.Write("Digite a placa do veículo para estacionar: ");
             string placa = Console.ReadLine();
+
+            if(!veiculos.Add(placa))
+            {
+                Console.WriteLine("Veiculo já cadastrado");
+                return;
+            }
 
             Console.Write("Deseja adicionar serviço de lava-rápido? (S/N): ");
             string respostaLavaRapido = Console.ReadLine().ToUpper();
