@@ -2,7 +2,7 @@
 Esse desafio tem por objetivo atender a um dos requisitos do Bootcamp DecolaTech 2024, que foi promovido pela parceria da AVANADE com a DIO.
 
 ## Estudos utilizados nesse desafio 📝
-Utilizei os operadores lógicos para realizar o cálculo do valor total gasto no estacionamento, inclui as variáves necessárias para que pudessem ser utilizadas para o cadastro das placas dos carros e para listar a quantidade de carros estacionados utilizei o foreach para percorrer toda a lista de carro, futuramente quero desenvolver melhor esse projeto implementando a impressão de um ticket do estacionamento. 
+Utilizei os operadores lógicos para realizar o cálculo do valor total gasto no estacionamento, inclui as variáves necessárias para que pudessem ser utilizadas para o cadastro das placas dos carros e para listar a quantidade de carros estacionados utilizei o foreach para percorrer toda a lista de carro, em breve quero desenvolver melhor esse projeto implementando a impressão de um ticket do estacionamento e em seguida utilizar uma página web com identidade visual para uma melhor experiencia de usuário.
 
 
 
