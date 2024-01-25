@@ -19,9 +19,14 @@ namespace DesafioFundamentos.Models
             Console.Write("Digite a placa do veículo para estacionar: ");
             string placa = Console.ReadLine();
 
-            if(!veiculos.Add(placa))
+            // if(!veiculos.Add(placa))
+            // {
+            //     Console.WriteLine("Veiculo já cadastrado");
+            //     return;
+            // }
+            if (veiculos.Contains(placa))
             {
-                Console.WriteLine("Veiculo já cadastrado");
+                Console.WriteLine("Veículo já cadastrado!");
                 return;
             }
 
@@ -32,6 +37,13 @@ namespace DesafioFundamentos.Models
             {
                 placa += "ComLavaRapido";
             }
+
+            if (veiculos.Contains(placa))
+            {
+                Console.WriteLine("Veiculo já cadastrado!");
+                return;
+            }
+
             veiculos.Add(placa);
 
             decimal horas = 0;
