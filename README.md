@@ -2,7 +2,32 @@
 Esse desafio tem por objetivo atender a um dos requisitos do Bootcamp DecolaTech 2024, que foi promovido pela parceria da AVANADE com a DIO.
 
 ## Estudos utilizados nesse desafio 📝
-Utilizei os operadores lógicos para realizar o cálculo do valor total gasto no estacionamento, inclui as variáves necessárias para que pudessem ser utilizadas para o cadastro das placas dos carros e para listar a quantidade de carros estacionados utilizei o foreach para percorrer toda a lista de carro, em breve quero desenvolver melhor esse projeto implementando a impressão de um ticket do estacionamento e em seguida utilizar uma página web com identidade visual para uma melhor experiencia de usuário.
+Utilizei os operadores lógicos para realizar o cálculo do valor total gasto no estacionamento, inclui as variáves necessárias para que pudessem ser utilizadas para o cadastro das placas dos carros e para listar a quantidade de carros estacionados utilizei o foreach para percorrer toda a lista de carro. Foi implementado um serviço de lava-rápido onde ao adicionar o veículo na lista de carros, o cliente tenha a opção desse serviço, agregando melhorias no sistema de Estacionamento. 
+
+Em breve quero desenvolver melhor esse projeto e implementar uma página web com identidade visual para uma melhor experiência de usuário e a impressão de um ticket de estacionamento.
+
+Para isso já foi criado a logomarca do estacionamento e futuramente será desenvolvido todo o restante visual como também análise do código necessário para essa conclusão.
+
+![Logomarca Decolas Park](DesafioFundamentos/Img/DecolasPark.jpg)
+
+
+## Como clonar esse projeto:
+
+Certifique-se de ter o Node.js e .NET 8.0 instalado em sua máquina.
+
+Acima da lista de arquivos, clique em <>Code.
+
+Copie a URL do repositório como desejar
+
+Abra Git Bash.
+
+Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
+
+Digite git clone e cole a URL já copiada.
+
+Pressione ENTER para criar seu clone local.
+
+Para executar, utilize o comando: dotnet run no terminal.
 
 
 
@@ -15,6 +40,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 
 ---
+
+
+# README ORIGINAL DO PROJETO FEITO PELA DIO:
+
 # DIO - Trilha .NET - Fundamentos
 www.dio.me
 
