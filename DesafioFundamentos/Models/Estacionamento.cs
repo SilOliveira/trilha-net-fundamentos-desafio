@@ -5,6 +5,9 @@ namespace DesafioFundamentos.Models
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
         private decimal precoLavaRapido = 0;
+        private string respostaLavaRapido;
+
+        private decimal horas = 0;
         private HashSet<string> veiculos = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora, decimal precoLavaRapido)
@@ -26,7 +29,7 @@ namespace DesafioFundamentos.Models
             }
 
             Console.Write("Deseja adicionar serviço de lava-rápido? (S/N): ");
-            string respostaLavaRapido = Console.ReadLine().ToUpper();
+            respostaLavaRapido = Console.ReadLine().ToUpper();
                        
             if(respostaLavaRapido == "S") 
             {
@@ -41,7 +44,7 @@ namespace DesafioFundamentos.Models
 
             veiculos.Add(placa);
 
-            decimal horas = 0;
+            
 
             decimal valorTotal = precoInicial + precoPorHora * horas + (respostaLavaRapido == "S" ? precoLavaRapido : 0);
         }
@@ -57,7 +60,7 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
                 int horas = Convert.ToInt32(Console.ReadLine());
-                decimal valorTotal = precoInicial + precoPorHora * horas + precoLavaRapido; 
+                decimal valorTotal = precoInicial + precoPorHora * horas + (respostaLavaRapido == "S" ? precoLavaRapido : 0);
 
                 veiculos.Remove(placa);
 
